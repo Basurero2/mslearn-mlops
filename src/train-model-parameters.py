@@ -30,7 +30,7 @@ def main(args):
 
 def get_data(path):
     # function that reads the data from a file or a folder of CSV files
-    print("Reading data...")
+    print("Reading data... causa")
 
     if os.path.isdir(path):
         csv_files = glob.glob(os.path.join(path, "*.csv"))
